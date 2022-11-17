@@ -17,10 +17,12 @@ Discovered open port 53/tcp on 192.168.1.1
 Discovered open port 22/tcp on 192.168.1.1
 Discovered open port 80/tcp on 192.168.1.1
 Discovered open port 3001/tcp on 192.168.1.1
+<br>
 
 
 e:
 ──(root㉿kali)-[/home/kali]
+<br>
 └─# nmap -v -A -sV 192.168.253.5
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-11-17 09:36 EST
 NSE: Loaded 155 scripts for scanning.
