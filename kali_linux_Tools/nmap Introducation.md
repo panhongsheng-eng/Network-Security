@@ -1,4 +1,7 @@
 <h1 align = 'center'>nmap 使用示例</h1>
+<p align = 'center'>
+<img src = 'https://www.kali.org/tools/nmap/images/nmap-logo.svg'>
+           </p>
 以详细模式扫描 （），启用操作系统检测、版本检测、脚本扫描和跟踪路由 （），并针对目标 IP 进行版本检测 （）：-v-A-sV192.168.1.1
 
 root@kali:~# nmap -v -A -sV 192.168.1.1
@@ -81,3 +84,6 @@ Read data files from: /usr/bin/../share/nmap
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 11.33 seconds
            Raw packets sent: 2036 (91.010KB) | Rcvd: 1955 (78.474KB)
+           <br>
+<h1>nping Usage Example</h1>
+Using TCP mode () to probe port 22 () using the SYN flag () with a TTL of 2 () on the remote host ():–tcp-p 22–flags syn–ttl 2192.168.1.1
